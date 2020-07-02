@@ -1,0 +1,46 @@
+.icon{
+  width: 60px;
+  height: 60px;
+  background: url(css-sprite-iconok2.png) no-repeat;
+}
+.vk{
+  background-position: 0 0;
+  float: left;
+}
+.vk:hover{
+  background-position: 0 -60px;
+}
+.tw{
+  background-position: -59px 0;
+  float: left;
+}
+
+.tw:hover{
+  background-position: -59px -60px;
+}
+
+.g{
+	background-position: -118px -0px;
+    float: left;
+
+}
+
+
+.g:hover{
+	 background-position:-117px -60px;
+}
+
+.wifi{
+	background-position: -177px -0px;
+    float: left;
+}
+
+.wifi:hover{
+	background-position: -177px -60px;
+	
+}
+
+.g,.tw,.wifi,.vk{
+	list-style-type: none;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYBE html>
+<html>
+<head>
+    <title>work1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="14952974-3cff-4ec9-8b9e-6aec1ab1daaa.jpg" type="image/ico"/>
+</head>
+<body>
+<h1>text</h1>
+<form action="about.html" method="post">
+    <fieldset>
+        <legend>Login</legend>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Type your name..." value="" maxlength="5" minlength="2" pattern="[0-9]" autocomplete="off"/>
+        <label>
+            Age
+            <input type="number"/>
+        </label>
+        <input type="date">
+        <input type="week">
+        <input type="time">
+        <input type="color">
+        <input type="password">
+        <input type="email">
+        <input type="url">
+        <input type="range">
+        <label > en
+        <input type="checkbox" checked>
+        </label>
+        <label > am
+        <input type="checkbox" disabled>
+        </label>
+
+        <label > male
+            <input type="radio" name="gender">
+        </label>
+        <label > female
+            <input type="radio" name="gender">
+        </label>
+        <textarea placeholder="type your message...">
+        </textarea>
+
+        <input type="button" value="button">
+        <button type="button">
+            button
+        </button>
+        <button type="submit">
+            submit
+        </button>
+        <button type="reset">
+            reset
+        </button>
+        <input type="hidden">
+        <input type="file">
+        <select name="" id="">
+            <optgroup label="name">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </optgroup>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+    </fieldset>
+</form>
+
+<script>
+    let name = document.querySelector('#name');
+    function getValue(e) {
+        const val = e.target.value;
+        if (val.length) {
+            console.log(val)
+        } else {
+            console.log('there isn\'t value')
+        }
+
+    }
+    name.addEventListener('blur', getValue)
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+
+table {
+	border:1px solid black; 
+	margin-left:450px;
+	margin-top:90px;
+	
+
+
+}
+
+td {
+	width:40px; 
+	height: 40px; 
+	border:1px solid black;
+}
+
+
+tr:nth-of-type(odd) td:nth-of-type(2n) {
+ 	background-color:black; 
+}
+
+
+tr:nth-of-type(even) td:nth-of-type(2n+1) { 
+	background-color:black; 
+}
+
+
+.fa-chess-knight,.fa-chess-king, .fa-chess-rook1, .fa-chess-pawn1{
+	color: white;
+	font-size: 30px;
+	
+
+}
+
+th{
+	font-size: 30px;
+}
+
+.fa-chess-rook, .fa-chess-queen, .fa-chess-rook{
+	font-size: 30px;
+
+}
+
+.fa-chess-pawn{
+	font-size:30px;
+}
+
+.fa-chess-rook1,{
+color: white
+}
+
+{
+	color: white;
+}

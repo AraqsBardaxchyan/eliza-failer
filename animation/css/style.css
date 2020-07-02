@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  border:1px solid;
+  width: 500px;
+  height: 500px;
+}
+
+.border{
+  width: 100px;
+  height: 100px;
+  background: red;
+  /*animation-name: changeColor;*/
+  /*animation-duration: 5s;*/
+  /*animation-delay: 1s;*/
+  /*!*animation-iteration-count: infinite;*!*/
+  /*animation-timing-function: ease-in-out;*/
+  /*!*animation-direction: alternate-reverse;*!*/
+  /*animation-fill-mode: both;*/
+  animation: changeColor 5s 1s ease-in-out,left 1s 1s ;
+  animation-play-state: paused;
+}
+
+.border:hover{
+  animation-play-state: running;
+}
+
+@keyframes changeColor {
+  from{
+    background: blue;
+    border:3px solid
+  }
+  25% {
+    background: deeppink;
+  }
+  to {
+    background: greenyellow;
+    border:3px solid red
+  }
+}
+
+
+@keyframes left{
+  from{
+    margin-left: 0;
+  }
+  to{
+    margin-left: 400px;
+  }
+}
+
+@keyframes top{
+  from{
+    margin-top:0;
+  }
+  to{
+    margin-top: 700px;
+  }
+}

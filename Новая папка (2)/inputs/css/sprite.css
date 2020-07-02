@@ -1,0 +1,18 @@
+.icon{
+  width: 60px;
+  height: 60px;
+  background: url(css-sprite-iconok2.png) no-repeat;
+}
+.vk{
+  background-position: 0 0;
+}
+.vk:hover{
+  background-position: 0 -60px;
+}
+.tw{
+  background-position: -59px 0;
+}
+
+.tw:hover{
+  background-position: -59px -60px;
+}

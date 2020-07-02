@@ -1,0 +1,42 @@
+.main {
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+}
+
+.main::after {
+  content: 'after';
+  color: red;
+  display: block;
+}
+
+.main::before {
+  content: attr(text-before);
+}
+
+.line{
+/* word-break: break-word;*/
+border:1px solid;
+width: 100px;
+display: flex;
+flex-direction: column;
+
+}
+.line>p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width:100%;
+}
+.line::before,
+.line::after{
+content: '';
+border-top:2px solid  red;
+width: 0;
+}
+
+.line:hover::after,
+.line:hover::before{
+width: 50%;
+transition: all .6s;
+}

@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.star {
+  margin-top: 100px;
+  color: #EBEBEB;
+  font-size: 100px;
+  transition: all .6s;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.star>a:hover ~a,
+.star>a:hover{
+  color: #5045C4;
+}
+/*.star1 {*/
+  /*color: #5045C4;*/
+/*}*/
+
+/*.star a:hover {*/
+  /*color: #5045C4;*/
+/*}*/
+
+/*.star2:hover ~ a, .star3:hover ~ a, .star4:hover ~ a, .star5:hover ~ a {*/
+  /*color: #5045C4;*/
+
+/*}*/
+
+

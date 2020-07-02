@@ -1,0 +1,28 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizinge:border-box;
+}
+
+
+.section{
+	width: 100%;
+	height: 1200px;
+	
+}
+
+.aside, .article, .right{
+	height: 300px;
+	width: 300px;
+	
+
+
+}
+
+.container{
+	  justify-content: flex-start;
+}
+.aside, .article, .right, .section{
+	border: 1px solid red;
+	border-style: groove;
+}

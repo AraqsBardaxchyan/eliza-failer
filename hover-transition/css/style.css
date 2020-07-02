@@ -1,0 +1,51 @@
+/*image object fit*/
+
+.image-container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.image-container:hover >  .top,
+.image-container:hover >  .bottom{
+  height: 50%;
+  transition: all 6s;
+}
+
+.image-container > figcaption {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  background: rgba(255, 255, 255, .5);
+  overflow: hidden;
+  transition: all 6s;
+}
+.image-container > figcaption>p{
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.image-container > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: left top;
+}
+
+.top {
+  top: 0;
+}
+.top>p{
+  bottom: 0;
+  transition: traslateY(50%);
+}
+.bottom>p{
+  transition: traslateY(-50%);
+}
+.bottom {
+  bottom: 0;
+}

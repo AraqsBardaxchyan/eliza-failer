@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.main{
+	border:3px solid red;
+	 width: 500px;
+  height: 500px;
+  display: flex;
+   align-content: space-between;
+    justify-content:  flex-end center ;
+ 
+}
+
+.main>div:nth-of-type(even){
+	background-color: red;
+	width: 50px;
+	 flex-shrink: 0;
+
+
+}
+
+.main>div:nth-of-type(odd){
+background-color: green;
+width: 70px;
+
+}

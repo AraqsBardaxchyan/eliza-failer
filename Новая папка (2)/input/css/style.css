@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+
+	background-color: #7AF6FE;
+
+ }
+
+
+.main{
+	width: 100%;
+	height:auto;
+	margin-left:200px;
+	margin-top:100px;
+}
+
+.left-section, .right-section{
+	width: 30%;
+	height:80%;
+	background-color: #3791CD;
+	float: left;
+}
+
+.right-section{
+	background-color:#FFFFFF;
+	
+}
+
+.text,small,.tex1,p,strong,.text2,.right-text{
+	text-transform: uppercase;
+	color:#FFFFFF;
+	margin-top:50px;
+	margin-left:20px;
+	font-size:25px;
+
+}
+
+.tex1,p,strong{
+	font-size:15px;
+	text-transform: lowercase;
+}
+
+
+.btn{
+	margin-left:40px;
+	padding: 10px;
+	color: black;
+	border-radius:6px;
+	background-color: #FFFFFF;
+}
+
+.right-text1{
+	
+	color:#3791CD;
+}
+ 
+
+.inpute-grup,.inpute-password,.inpute-grup1,.check,.btn2{
+	
+	height:auto;
+	margin-top: 50px;
+	margin-left: 20px;
+	border-radius: 10px;
+	position: relative;
+	}
+	
+
+
+.input1,.email1,.btn2{
+	width: 100px;
+	border:none;
+
+}
+
+
+.password{
+	width: 90px;
+	margin-top: 20px;
+
+}
+
+.p{
+	color:black;
+}
+
+
+li,a{
+	list-style-type: none;
+	color:#3791CD;
+}
+
+.btn2{
+	margin-top: 10px;
+	padding: 10px;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	background-color:#3493CB;
+	color:white;
+}
+
+

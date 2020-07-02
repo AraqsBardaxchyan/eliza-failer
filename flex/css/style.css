@@ -1,0 +1,43 @@
+.main {
+  border: 2px solid;
+  width: 500px;
+  height: 500px;
+  display:  flex /*inline-flex*/;
+  /*default*/
+  /*align-items: flex-start !*stretch flex-start flex-end center baseline*!;*/
+  align-content: space-between /*flex-start flex-end center space-around space-between*/;
+  flex-direction: row; /*row row-reverse column column-reverse*/
+  justify-content: space-around /*flex-start flex-end center space-between space-around*/;
+  flex-wrap: nowrap /*nowrap*/;
+  /*
+  flex-flow:column wrap ;=>flex-direction + flex-wrap
+  */
+
+}
+
+.main > div:nth-of-type(even) {
+  background: greenyellow;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.main > div:nth-of-type(2) {
+  flex-basis: 100px;
+  flex-shrink: 0;
+  font-size: 26px;
+}
+
+
+.main > div:nth-of-type(odd) {
+  background: orange;
+  /*width: 100px;*/
+  flex-basis: 100px;
+  flex-shrink: 0;
+  font-size: 26px;
+}
+
+.main > div:nth-of-type(3) {
+  /*flex-shrink: 3;*/
+  /*flex-grow: 4;*/
+  flex:0 0 100px
+}
